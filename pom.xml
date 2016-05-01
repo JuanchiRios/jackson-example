@@ -5,11 +5,8 @@
 	<artifactId>jackson-example</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
-		<slf4j.version>1.7.18</slf4j.version>
-		<logback.version>1.1.5</logback.version>
 		<junit.version>4.12</junit.version>	
-		<mockito.version>2.0.43-beta</mockito.version>
-		<jackson.version>2.7.2</jackson.version>	
+		<jackson.version>2.7.4</jackson.version>	
 	</properties>
 	<build>
 		<plugins>
@@ -32,33 +29,8 @@
 			<scope>test</scope>
 		</dependency>
 		<dependency>
-			<groupId>org.mockito</groupId>
-			<artifactId>mockito-core</artifactId>
-			<version>${mockito.version}</version>
-		</dependency>	
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-api</artifactId>
-			<version>${slf4j.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-classic</artifactId>
-			<version>${logback.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>ch.qos.logback</groupId>
-			<artifactId>logback-core</artifactId>
-			<version>${logback.version}</version>
-		</dependency>
-		<dependency>
 			<groupId>com.fasterxml.jackson.core</groupId>
 			<artifactId>jackson-core</artifactId>
-			<version>${jackson.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>com.fasterxml.jackson.core</groupId>
-			<artifactId>jackson-databind</artifactId>
 			<version>${jackson.version}</version>
 		</dependency>
 	</dependencies>
