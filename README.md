@@ -3,3 +3,8 @@
 # JacksonExample
 
 Example of a json mapping using jackson framework
+
+## Documentation
+http://wiki.fasterxml.com/JacksonDocumentation
+
+https://github.com/FasterXML/jackson-docs
